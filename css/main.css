@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color: teal;
+    display: flex;
+    height: 500px;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo {
+    background-color: tomato;
+    width: 150px;
+    height: 150px;
+    margin:15px;
+}
+
+/* estilos de ejemplo */
+
+/* estilos generales */
+
+body {
+    background-color: whitesmoke;
+}
+
+/* estilos del header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+/* estilos del main */
+
+main h1 {
+    text-align: center;
+}
+
+main .caja {
+    display: flex;
+    margin: 30px;
+}
+
+main .caja .card-uno, .card-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
